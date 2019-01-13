@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Name__c</fullName>
+    <description>Student Names</description>
+    <externalId>false</externalId>
+    <label>Student Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jeevan</fullName>
+                <default>false</default>
+                <label>Jeevan</label>
+            </value>
+            <value>
+                <fullName>Surendra</fullName>
+                <default>false</default>
+                <label>Surendra</label>
+            </value>
+            <value>
+                <fullName>Ramgopal</fullName>
+                <default>false</default>
+                <label>Ramgopal</label>
+            </value>
+            <value>
+                <fullName>Karthik</fullName>
+                <default>false</default>
+                <label>Karthik</label>
+            </value>
+            <value>
+                <fullName>Santhosh</fullName>
+                <default>false</default>
+                <label>Santhosh</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
